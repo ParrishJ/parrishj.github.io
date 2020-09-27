@@ -1,5 +1,6 @@
 #home-jumbotron {
-    background-image: url(../images/mountains.jpg);
+    background-image: url(../images/star-streaks.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 100%;
 }
