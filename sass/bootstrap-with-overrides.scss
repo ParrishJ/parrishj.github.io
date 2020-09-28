@@ -75,6 +75,12 @@ $theme-colors: (
   
 );
 
+$colors: (
+  "gray": $gray-600,
+  "dark": $darkNavy,
+  
+);
+
 
 
 @import "../bootstrap-4.0.0/scss/bootstrap.scss"
