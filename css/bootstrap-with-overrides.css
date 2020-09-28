@@ -6,6 +6,46 @@
   #home-jumbotron h1, #home-jumbotron h2, #home-jumbotron h3, #home-jumbotron h4, #home-jumbotron h5, #home-jumbotron h6, #home-jumbotron p {
     color: white; }
 
+.custom-shape-divider-top-1601254226 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0; }
+
+.custom-shape-divider-top-1601254226 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px; }
+
+.custom-shape-divider-top-1601254226 .shape-fill {
+  fill: #FFFFFF; }
+
+.custom-shape-divider-bottom-1601254498 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0; }
+
+.custom-shape-divider-bottom-1601254498 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px; }
+
+.custom-shape-divider-bottom-1601254498 .shape-fill {
+  fill: #FFFFFF; }
+
+.divider-text-div {
+  min-height: 400px; }
+
+.divider-text-div h1, .divider-text-div h2, .divider-text-div h3, .divider-text-div h4, .divider-text-div h5, .divider-text-div h6, .divider-text-div p {
+  color: white; }
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
