@@ -46,6 +46,16 @@
 .divider-text-div h1, .divider-text-div h2, .divider-text-div h3, .divider-text-div h4, .divider-text-div h5, .divider-text-div h6, .divider-text-div p {
   color: white; }
 
+body h1 {
+  font-size: 3.5em; }
+body p:not(.blockquote) {
+  font-size: 1.4em;
+  line-height: 2; }
+body blockquote.blockquote p {
+  font-weight: bold;
+  font-size: 1.1em;
+  line-height: 1.5; }
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors

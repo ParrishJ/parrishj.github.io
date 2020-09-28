@@ -75,11 +75,23 @@ $theme-colors: (
   
 );
 
-$colors: (
-  "gray": $gray-600,
-  "dark": $darkNavy,
-  
-);
+
+body {
+  h1 {
+    font-size: 3.5em;
+  }
+  p:not(.blockquote){
+    font-size: 1.4em;
+    line-height: 2;
+  }
+  blockquote.blockquote {
+    p {
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.5;
+    }
+  }
+}
 
 
 
