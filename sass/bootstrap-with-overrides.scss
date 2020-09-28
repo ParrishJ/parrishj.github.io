@@ -63,10 +63,12 @@ $darkNavy: #0B1016;
 .divider-text-div {
   h1, h2, h3, h4, h5, h6, p {
     color: white;
+  }
 }
-  
 
-}
+$border-width: 4px;
+
+$border-radius: .8rem;
 
 
 $theme-colors: (
@@ -90,7 +92,14 @@ body {
     font-size: 1.1em;
     line-height: 1.5;
     }
+    .blockquote-footer {
+      font-weight: bold;
+    }
   }
+}
+
+dl {
+  list-style: square;
 }
 
 
