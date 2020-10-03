@@ -1,5 +1,4 @@
 
-
 $darkNavy: #0B1016;
 
 #home-jumbotron {
@@ -66,7 +65,7 @@ $darkNavy: #0B1016;
   }
 }
 
-$border-width: 4px;
+$border-width: 2.5px;
 
 $border-radius: .8rem;
 
@@ -79,9 +78,28 @@ $theme-colors: (
 
 
 body {
-  h1 {
-    font-size: 3.5em;
+
+    
+      h1 {
+      font-size: 3em;
+
+      @media (min-width: 768px) {
+        font-size: 3.5em;
+      }
+    }
+
+    #home-jumbotron{
+    .header-text {
+      font-size: 1.2em;
+      @media (min-width: 768px) {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+    }
   }
+    
+  }
+
   p:not(.blockquote){
     font-size: 1.4em;
     line-height: 2;
@@ -96,7 +114,10 @@ body {
       font-weight: bold;
     }
   }
-}
+  #random-image {
+    max-width: 100%;
+  }
+
 
 dl {
   list-style: square;
