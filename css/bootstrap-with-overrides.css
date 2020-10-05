@@ -45,6 +45,16 @@
 
 .divider-text-div h1, .divider-text-div h2, .divider-text-div h3, .divider-text-div h4, .divider-text-div h5, .divider-text-div h6, .divider-text-div p {
   color: white; }
+.divider-text-div h1 {
+  font-size: 2em; }
+  @media (min-width: 768px) {
+    .divider-text-div h1 {
+      font-size: 3.5em; } }
+.divider-text-div h2 {
+  font-size: 1.4em; }
+  @media (min-width: 768px) {
+    .divider-text-div h2 {
+      font-size: 1.9em; } }
 
 body h1 {
   font-size: 3em; }
