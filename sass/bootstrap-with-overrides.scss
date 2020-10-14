@@ -1,5 +1,4 @@
 
-
 $darkNavy: #0B1016;
 
 #home-jumbotron {
@@ -13,11 +12,134 @@ $darkNavy: #0B1016;
     }
 }
 
+//top divider
+.custom-shape-divider-top-1601254226 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
 
+.custom-shape-divider-top-1601254226 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-top-1601254226 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+// bottom divider 
+.custom-shape-divider-bottom-1601254498 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1601254498 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1601254498 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.divider-text-div {
+  min-height: 400px;
+}
+
+.divider-text-div {
+  h1, h2, h3, h4, h5, h6, p {
+    color: white;
+  }
+
+  h1 {
+    font-size: 2em;
+
+    @media (min-width: 768px) {
+      font-size: 3.5em;
+    }
+  }
+
+  h2 {
+    font-size: 1.4em;
+
+    @media (min-width: 768px) {
+      font-size: 1.9em;
+    }
+  }
+  
+}
+
+$border-width: 2.5px;
+
+$border-radius: .8rem;
 
 
 $theme-colors: (
+  "primary": $darkNavy,
   "dark": $darkNavy,
+  
 );
+
+
+body {
+
+    
+      h1 {
+      font-size: 3em;
+
+      @media (min-width: 768px) {
+        font-size: 3.5em;
+      }
+    }
+
+    #home-jumbotron{
+    .header-text {
+      font-size: 1.2em;
+      @media (min-width: 768px) {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+    }
+  }
+    
+  }
+
+  p:not(.blockquote){
+    font-size: 1.4em;
+    line-height: 2;
+  }
+  blockquote.blockquote {
+    p {
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.5;
+    }
+    .blockquote-footer {
+      font-weight: bold;
+    }
+  }
+  #random-image {
+    max-width: 100%;
+  }
+
+
+dl {
+  list-style: square;
+}
+
+
 
 @import "../bootstrap-4.0.0/scss/bootstrap.scss"
