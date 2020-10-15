@@ -85,6 +85,18 @@ blockquote.blockquote .blockquote-footer {
 dl {
   list-style: square; }
 
+.line-container {
+  width: 15%; }
+
+.line {
+  width: 90%;
+  margin: 0 auto;
+  height: 2px;
+  background: black; }
+
+.logo-anchor {
+  width: 15%; }
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
