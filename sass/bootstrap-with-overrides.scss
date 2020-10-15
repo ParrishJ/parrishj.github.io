@@ -140,6 +140,20 @@ dl {
   list-style: square;
 }
 
+.line-container {
+  width: 15%;
+}
+
+.line {
+  width: 90%;
+  margin: 0 auto;
+  height: 2px;
+  background: black;
+}
+
+.logo-anchor {
+  width: 15%;
+}
 
 
 @import "../bootstrap-4.0.0/scss/bootstrap.scss"
