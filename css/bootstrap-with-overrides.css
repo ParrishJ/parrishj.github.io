@@ -94,8 +94,11 @@ dl {
   height: 2px;
   background: black; }
 
-.logo-anchor {
-  width: 15%; }
+#find-me-text {
+  font-size: 1.1em; }
+  @media (min-width: 576px) {
+    #find-me-text {
+      font-size: 1.4em; } }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
