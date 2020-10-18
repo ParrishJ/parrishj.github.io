@@ -110,7 +110,7 @@ body {
       font-size: 1.2em;
       @media (min-width: 768px) {
         font-size: 1.5em;
-        font-weight: bold;
+        /* font-weight: bold; */
       }
     }
   }
@@ -131,7 +131,7 @@ body {
       font-weight: bold;
     }
   }
-  #random-image {
+  #random-image, #jared-parrish-headshot {
     max-width: 100%;
   }
 
