@@ -16,22 +16,25 @@
       <header class="container-fluid p-0">
           <section class="jumbotron jumbotron-fluid text-center mb-0" id="home-jumbotron">
               <h1>Contact Me</h1>
-              <p>I'm Always Looking to Connect With New People</p>
+              <p class="header-text px-4">I'm Always Looking to Connect With New People</p>
           </section>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-4">
+            <a class="navbar-brand" href="https://www.jaredparrish.com/"><img src="../images/jp-logo-white-with-stroke.png" width="40" height="40" alt="jared-parrish-logo" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/contact.html">Page Two</a>
+                  <a class="nav-link" href="about-me.html">About Me</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown
                   </a>
@@ -41,10 +44,8 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Something else here</a>
                   </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
+                </li> -->
+                
               </ul>
             </div>
           </nav>
@@ -82,7 +83,7 @@
 
           <div class="row my-4 justify-content-center">
             <div class="col-12 col-md-8">
-            <!-- <form action="https://formspree.io/xjvpkgdo" method="POST" class="needs-validation" novalidate>
+            <form action="https://formspree.io/xjvpkgdo" method="POST" class="needs-validation" novalidate>
               <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="emailHelp" placeholder="Enter Name" required>
@@ -102,7 +103,7 @@
                 <small id="nameHelp" class="form-text text-muted valid-feedback">Sounds Great!</small>
               </div>
               <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
-            </form> -->
+            </form>
             </div>
           </div>
 
@@ -156,5 +157,23 @@
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script>
+        
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {   
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
   </body>
 </html>
