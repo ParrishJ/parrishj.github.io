@@ -12,6 +12,8 @@ $darkNavy: #0B1016;
     }
 }
 
+
+
 //top divider
 .custom-shape-divider-top-1601254226 {
   position: absolute;
@@ -96,6 +98,17 @@ $theme-colors: (
 
 body {
 
+  .reasons{
+    .reasons-heading {
+      font-size: 1.6em;
+    }
+  
+    .reasons-text {
+      font-size: 1.3em;
+      line-height: 1.5;
+    }
+  }
+
     
       h1 {
       font-size: 3em;
@@ -113,21 +126,21 @@ body {
         /* font-weight: bold; */
       }
     }
+
+    
+    
+
   }
 
-  dt {
-    font-size: 1.6em;
-  }
-
-  dd {
-    font-size: 1.3em;
-  }
+  
+  
     
   }
 
   p:not(.blockquote){
     font-size: 1.4em;
     line-height: 1.9;
+    
   }
   blockquote.blockquote {
     p {

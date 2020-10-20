@@ -56,6 +56,11 @@
     .divider-text-div h2 {
       font-size: 1.9em; } }
 
+body .reasons .reasons-heading {
+  font-size: 1.6em; }
+body .reasons .reasons-text {
+  font-size: 1.3em;
+  line-height: 1.5; }
 body h1 {
   font-size: 3em; }
   @media (min-width: 768px) {
@@ -67,10 +72,6 @@ body #home-jumbotron .header-text {
     body #home-jumbotron .header-text {
       font-size: 1.5em;
       /* font-weight: bold; */ } }
-body dt {
-  font-size: 1.6em; }
-body dd {
-  font-size: 1.3em; }
 
 p:not(.blockquote) {
   font-size: 1.4em;
