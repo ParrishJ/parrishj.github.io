@@ -1,3 +1,6 @@
+body h1, body h2, body h3, body h4, body h5, body h6, body p {
+  font-family: 'Exo 2', sans-serif !important; }
+
 #home-jumbotron {
   background-image: url(../images/star-streaks.jpg);
   background-size: cover;
@@ -104,6 +107,9 @@ dl {
   @media (min-width: 576px) {
     #find-me-text {
       font-size: 1.4em; } }
+
+#about-contact-button {
+  padding: 1.3rem 5rem; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)

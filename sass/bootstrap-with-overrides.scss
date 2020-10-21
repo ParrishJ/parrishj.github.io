@@ -1,6 +1,13 @@
 
 $darkNavy: #0B1016;
 
+body {
+  h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Archivo Narrow', sans-serif !important;
+  }
+}
+
+
 #home-jumbotron {
     background-image: url(../images/star-streaks.jpg);
     background-size: cover;
@@ -98,6 +105,8 @@ $theme-colors: (
 
 body {
 
+  
+
   .reasons{
     .reasons-heading {
       font-size: 1.6em;
@@ -178,6 +187,10 @@ dl {
   @media(min-width: 576px){
     font-size: 1.4em;
   }
+}
+
+#about-contact-button {
+  padding: 1.3rem 5rem;
 }
 
 
