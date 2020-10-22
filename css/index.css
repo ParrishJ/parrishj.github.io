@@ -1,4 +1,10 @@
-body h1, body h2, body h3, body h4, body h5, body h6, body p {
+/* body {
+  h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Archivo Narrow', sans-serif !important;
+  }
+}
+ */
+html body {
   font-family: 'Exo 2', sans-serif !important; }
 
 #home-jumbotron {
@@ -49,9 +55,20 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p {
 .divider-text-div h1, .divider-text-div h2, .divider-text-div h3, .divider-text-div h4, .divider-text-div h5, .divider-text-div h6, .divider-text-div p {
   color: white; }
 .divider-text-div h1 {
-  font-size: 2em; }
+  font-size: 1.8em; }
+  @media (min-width: 360px) {
+    .divider-text-div h1 {
+      font-size: 2em; } }
   @media (min-width: 768px) {
     .divider-text-div h1 {
+      font-size: 3.5em; } }
+.divider-text-div #contact-divider-text-heading h1 {
+  font-size: 1.8em; }
+  @media (min-width: 360px) {
+    .divider-text-div #contact-divider-text-heading h1 {
+      font-size: 2em; } }
+  @media (min-width: 768px) {
+    .divider-text-div #contact-divider-text-heading h1 {
       font-size: 3.5em; } }
 .divider-text-div h2 {
   font-size: 1.4em; }
@@ -154,7 +171,7 @@ dl {
   box-sizing: border-box; }
 
 html {
-  font-family: 'Exo 2', sans-serif;
+  font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
