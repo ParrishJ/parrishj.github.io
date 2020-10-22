@@ -88,12 +88,6 @@ html {
     line-height: 1.5; }
   html #home-page .blockquote .blockquote-footer {
     font-weight: bold; }
-  html #home-page #random-image {
-    max-width: 100%; }
-  html #about-me-page #jared-parrish-headshot {
-    max-width: 100%; }
-  html #about-me-page #about-contact-button {
-    padding: 1.3rem 5rem; }
   html #contact-page #contact-divider-text-heading h1 {
     font-size: 1.8em; }
     @media (min-width: 360px) {
@@ -107,9 +101,7 @@ html {
     max-width: 100px; }
     html #contact-page .line-container .line {
       width: 90%;
-      margin: 0 auto;
-      height: 2px;
-      background: black; }
+      height: 2px; }
   html #contact-page #find-me-text {
     font-size: 1.1em; }
     @media (min-width: 576px) {
