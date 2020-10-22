@@ -1,12 +1,18 @@
 
 $darkNavy: #0B1016;
 
-body {
+/* body {
   h1, h2, h3, h4, h5, h6, p {
     font-family: 'Archivo Narrow', sans-serif !important;
   }
 }
+ */
 
+html {
+  body{
+  font-family: 'Exo 2', sans-serif !important;
+}
+}
 
 #home-jumbotron {
     background-image: url(../images/star-streaks.jpg);
@@ -74,10 +80,28 @@ body {
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.8em;
+
+    @media (min-width: 360px) {
+      font-size: 2em;
+    }
 
     @media (min-width: 768px) {
       font-size: 3.5em;
+    }
+  }
+
+  #contact-divider-text-heading {
+    h1 {
+      font-size: 1.8em;
+  
+      @media (min-width: 360px) {
+        font-size: 2em;
+      }
+  
+      @media (min-width: 768px) {
+        font-size: 3.5em;
+      }
     }
   }
 
@@ -90,6 +114,8 @@ body {
   }
   
 }
+
+
 
 $border-width: 2.5px;
 
@@ -172,6 +198,7 @@ dl {
 
 .line-container {
   width: 15%;
+  max-width: 100px;
 }
 
 .line {
