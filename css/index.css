@@ -1,133 +1,120 @@
-/* body {
-  h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Archivo Narrow', sans-serif !important;
-  }
-}
- */
-html body {
-  font-family: 'Exo 2', sans-serif !important; }
-
-#home-jumbotron {
-  background-image: url(../images/star-streaks.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 100%; }
-  #home-jumbotron h1, #home-jumbotron h2, #home-jumbotron h3, #home-jumbotron h4, #home-jumbotron h5, #home-jumbotron h6, #home-jumbotron p {
-    color: white; }
-
-.custom-shape-divider-top-1601254226 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0; }
-
-.custom-shape-divider-top-1601254226 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 100px; }
-
-.custom-shape-divider-top-1601254226 .shape-fill {
-  fill: #FFFFFF; }
-
-.custom-shape-divider-bottom-1601254498 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0; }
-
-.custom-shape-divider-bottom-1601254498 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 100px; }
-
-.custom-shape-divider-bottom-1601254498 .shape-fill {
-  fill: #FFFFFF; }
-
-.divider-text-div {
-  min-height: 400px; }
-
-.divider-text-div h1, .divider-text-div h2, .divider-text-div h3, .divider-text-div h4, .divider-text-div h5, .divider-text-div h6, .divider-text-div p {
-  color: white; }
-.divider-text-div h1 {
-  font-size: 1.8em; }
-  @media (min-width: 360px) {
-    .divider-text-div h1 {
-      font-size: 2em; } }
-  @media (min-width: 768px) {
-    .divider-text-div h1 {
-      font-size: 3.5em; } }
-.divider-text-div #contact-divider-text-heading h1 {
-  font-size: 1.8em; }
-  @media (min-width: 360px) {
-    .divider-text-div #contact-divider-text-heading h1 {
-      font-size: 2em; } }
-  @media (min-width: 768px) {
-    .divider-text-div #contact-divider-text-heading h1 {
-      font-size: 3.5em; } }
-.divider-text-div h2 {
-  font-size: 1.4em; }
-  @media (min-width: 768px) {
-    .divider-text-div h2 {
-      font-size: 1.9em; } }
-
-body .reasons .reasons-heading {
-  font-size: 1.6em; }
-body .reasons .reasons-text {
-  font-size: 1.3em;
-  line-height: 1.5; }
-body h1 {
-  font-size: 3em; }
-  @media (min-width: 768px) {
-    body h1 {
-      font-size: 3.5em; } }
-body #home-jumbotron .header-text {
-  font-size: 1.2em; }
-  @media (min-width: 768px) {
-    body #home-jumbotron .header-text {
-      font-size: 1.5em;
-      /* font-weight: bold; */ } }
-
-p:not(.blockquote) {
-  font-size: 1.4em;
-  line-height: 1.9; }
-
-blockquote.blockquote p {
-  font-weight: bold;
-  font-size: 1.1em;
-  line-height: 1.5; }
-blockquote.blockquote .blockquote-footer {
-  font-weight: bold; }
-
-#random-image, #jared-parrish-headshot {
-  max-width: 100%; }
-
-dl {
-  list-style: square; }
-
-.line-container {
-  width: 15%;
-  max-width: 100px; }
-
-.line {
-  width: 90%;
-  margin: 0 auto;
-  height: 2px;
-  background: black; }
-
-#find-me-text {
-  font-size: 1.1em; }
-  @media (min-width: 576px) {
-    #find-me-text {
-      font-size: 1.4em; } }
-
-#about-contact-button {
-  padding: 1.3rem 5rem; }
+html {
+  /*   Global Styles*/
+  /* End Global Styles */
+  /* Home Page Styles */
+  /* End Home Styles */
+  /* About Me Page Styles*/
+  /* End About Styles */
+  /* Contact Page Styles*/
+  /* End Contact Styles */ }
+  html body {
+    font-family: 'Exo 2', sans-serif !important;
+    /* End Jumbotron Styles */
+    /* SVG Divider Styles*/ }
+    html body h1 {
+      font-size: 3em; }
+      @media (min-width: 768px) {
+        html body h1 {
+          font-size: 3.5em; } }
+    html body p:not(.blockquote) {
+      font-size: 1.4em;
+      line-height: 1.9; }
+    html body .hero-jumbotron {
+      background-image: url(../images/star-streaks.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 100%; }
+      html body .hero-jumbotron h1, html body .hero-jumbotron h2, html body .hero-jumbotron h3, html body .hero-jumbotron h4, html body .hero-jumbotron h5, html body .hero-jumbotron h6, html body .hero-jumbotron p {
+        color: white; }
+      html body .hero-jumbotron .header-text {
+        font-size: 1.2em; }
+        @media (min-width: 768px) {
+          html body .hero-jumbotron .header-text {
+            font-size: 1.5em;
+            /* font-weight: bold; */ } }
+    html body .custom-shape-divider-top-1601254226 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0; }
+    html body .custom-shape-divider-top-1601254226 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 100px; }
+    html body .custom-shape-divider-top-1601254226 .shape-fill {
+      fill: #FFFFFF; }
+    html body .custom-shape-divider-bottom-1601254498 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0; }
+    html body .custom-shape-divider-bottom-1601254498 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 100px; }
+    html body .custom-shape-divider-bottom-1601254498 .shape-fill {
+      fill: #FFFFFF; }
+    html body .divider-text-div {
+      min-height: 400px; }
+    html body .divider-text-div h1, html body .divider-text-div h2, html body .divider-text-div h3, html body .divider-text-div h4, html body .divider-text-div h5, html body .divider-text-div h6, html body .divider-text-div p {
+      color: white; }
+    html body .divider-text-div h1 {
+      font-size: 1.8em; }
+      @media (min-width: 360px) {
+        html body .divider-text-div h1 {
+          font-size: 2em; } }
+      @media (min-width: 768px) {
+        html body .divider-text-div h1 {
+          font-size: 3.5em; } }
+    html body .divider-text-div h2 {
+      font-size: 1.4em; }
+      @media (min-width: 768px) {
+        html body .divider-text-div h2 {
+          font-size: 1.9em; } }
+  html #home-page .reasons .reasons-heading {
+    font-size: 1.6em; }
+  html #home-page .reasons .reasons-text {
+    font-size: 1.3em;
+    line-height: 1.5; }
+  html #home-page .blockquote p {
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.5; }
+  html #home-page .blockquote .blockquote-footer {
+    font-weight: bold; }
+  html #home-page #random-image {
+    max-width: 100%; }
+  html #about-me-page #jared-parrish-headshot {
+    max-width: 100%; }
+  html #about-me-page #about-contact-button {
+    padding: 1.3rem 5rem; }
+  html #contact-page #contact-divider-text-heading h1 {
+    font-size: 1.8em; }
+    @media (min-width: 360px) {
+      html #contact-page #contact-divider-text-heading h1 {
+        font-size: 2em; } }
+    @media (min-width: 768px) {
+      html #contact-page #contact-divider-text-heading h1 {
+        font-size: 3.5em; } }
+  html #contact-page .line-container {
+    width: 15%;
+    max-width: 100px; }
+    html #contact-page .line-container .line {
+      width: 90%;
+      margin: 0 auto;
+      height: 2px;
+      background: black; }
+  html #contact-page #find-me-text {
+    font-size: 1.1em; }
+    @media (min-width: 576px) {
+      html #contact-page #find-me-text {
+        font-size: 1.4em; } }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
