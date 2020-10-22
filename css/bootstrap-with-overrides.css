@@ -94,7 +94,8 @@ dl {
   list-style: square; }
 
 .line-container {
-  width: 15%; }
+  width: 15%;
+  max-width: 100px; }
 
 .line {
   width: 90%;

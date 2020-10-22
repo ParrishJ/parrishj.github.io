@@ -10,153 +10,121 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/index.css" />
-        <link rel="stylesheet" href="">
         <link rel="icon" type="image/png" href="../images/jp-favicon.png">
         <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
+
       <header class="container-fluid p-0">
-          <section class="jumbotron jumbotron-fluid text-center mb-0" id="home-jumbotron">
-              <h1>Contact Me</h1>
-              <p class="header-text px-4">I'm Always Looking to Connect With New People</p>
-          </section>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-4">
-            <a class="navbar-brand" href="https://www.jaredparrish.com/"><img src="../images/jp-logo-white-with-stroke.png" width="40" height="40" alt="jared-parrish-logo" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about-me.html">About Me</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-                </li>
-                <!-- <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li> -->
-                
-              </ul>
-            </div>
-          </nav>
-        </header>
+        <section class="jumbotron jumbotron-fluid text-center mb-0" id="home-jumbotron">
+            <h1>Contact Me</h1>
+            <p class="header-text px-4">I'm Always Looking to Connect With New People</p>
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-4">
+          <a class="navbar-brand" href="https://www.jaredparrish.com/">
+            <img src="../images/jp-logo-white-with-stroke.png" width="40" height="40" alt="jared-parrish-logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-me.html">About Me</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
     
-        <section class="container-fluid contact body">
-            <div class="row">
-                <div class="col">
-                  <h1 class="mt-5 mb-3 text-center">Reach Out Any Time</h1>
-                  <p class="text-center">I'm always looking to connect and share ideas with new people.</p>
-                </div>
+      <section class="container-fluid contact body">
+        <div class="row">
+            <div class="col">
+              <h1 class="text-center mt-5 mb-3">Reach Out Any Time</h1>
+              <p class="text-center">I'm always looking to connect and share ideas with new people.</p>
             </div>
-
-          <!-- <div class="row my-4 justify-content-center">
-            <div class="col-12 col-md-8">
-            <form action="https://formspree.io/xjvpkgdo" method="POST" class="was-validated">
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="emailHelp" placeholder="Enter Name" required>
-                <div class="invalid-feedback">Please fill out this field.</div>
-                <small id="nameHelp" class="form-text text-muted">It's Nice to Meet You!</small>
-              </div>
-              <div class="form-group">
-                <label for="inputEmail">Email address</label>
-                <input type="email" name="_replyto" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
-              </div>
-              <div class="form-group">
-                <label for="contactTextArea">Example textarea</label>
-                <textarea name="message" class="form-control" id="contactTextArea" rows="3" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
-            </form>
+        </div>
+        <div class="row justify-content-center my-4">
+          <div class="col-12 col-md-8">
+          <form action="https://formspree.io/xjvpkgdo" method="POST" class="needs-validation" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="nameInputHelp" placeholder="Enter Name" required>
+              <small class="form-text text-muted invalid-feedback">My name's Jared - what's yours?</small>
+              <small id="nameHelp" class="form-text text-muted valid-feedback">It's Nice to Meet You!</small>
             </div>
-          </div> -->
+            <div class="form-group">
+              <label for="inputEmail">Email address</label>
+              <input type="email" name="_replyto" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
+              <small class="form-text text-muted invalid-feedback">Please enter a valid email address</small>
+              <small id="nameHelp" class="form-text text-muted valid-feedback">Looks Good!</small>
+            </div>
+            <div class="form-group">
+              <label for="contactTextArea">Message</label>
+              <textarea name="message" class="form-control" id="contactTextArea" placeholder="Enter Message" rows="3" required></textarea>
+              <small class="form-text text-muted invalid-feedback">Please enter a message</small>
+              <small id="nameHelp" class="form-text text-muted valid-feedback">Sounds Great!</small>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+          </form>
+          </div>
+        </div>
+      </section>
 
+      <section class="container-fluid bg-dark position-relative mt-5">
+        <div class="custom-shape-divider-top-1601254226">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+          </svg>
+        </div>
+  
+        <div class="row divider-text-div">
+          <div class="col-12 d-flex flex-column justify-content-center">
+            <h1 class="divider-text text-center m-3">You can also find me elsewhere on the web</h1>
+            <h2 class="divider-text text-center m-3">Exploring new technologies. Creating new things.</h2>  
+          </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1601254498">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+          </svg>
+        </div>
+      </section>
+
+      <section class="container-fluid about-contact">
+        <div class="col-12 col-sm-10 mx-auto my-5">
+          <div class="row mx-auto my-4 justify-content-center align-items-center">
+            <div class="line-container">
+              <div class="line"></div>
+            </div>
+            <div class="m-0 px-2 find-me-text-container">
+              <p class="m-0 font-weight-bold" id="find-me-text">Find Me On</p>
+            </div>
+            <div class="line-container">
+              <div class="line"></div>
+            </div>
+          </div>
           <div class="row my-4 justify-content-center">
+            <a class="logo-anchor mx-2 mx-md-5 col-5 col-md-4 col-lg-3 col-xl-2" href="https://github.com/ParrishJ">
+              <img class="img-fluid" src="../images/Github-Logo.png"></img>
+            </a>
+            <a class="logo-anchor mx-2 mx-md-5 col-5 col-md-4 col-lg-3 col-xl-2" href="https://www.linkedin.com/in/jared-parrish/">
+              <img class="img-fluid" src="../images/LinkedIn-Logo.png"></img>
+            </a>
+          </div>
+          <div class="row justify-content-center align-items-center mx-auto my-5">
             <div class="col-12 col-md-8">
-            <form action="https://formspree.io/xjvpkgdo" method="POST" class="needs-validation" novalidate>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="nameInputHelp" placeholder="Enter Name" required>
-                <small class="form-text text-muted invalid-feedback">My name's Jared - what's yours?</small>
-                <small id="nameHelp" class="form-text text-muted valid-feedback">It's Nice to Meet You!</small>
-              </div>
-              <div class="form-group">
-                <label for="inputEmail">Email address</label>
-                <input type="email" name="_replyto" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
-                <small class="form-text text-muted invalid-feedback">Please enter a valid email address</small>
-                <small id="nameHelp" class="form-text text-muted valid-feedback">Looks Good!</small>
-              </div>
-              <div class="form-group">
-                <label for="contactTextArea">Message</label>
-                <textarea name="message" class="form-control" id="contactTextArea" placeholder="Enter Message" rows="3" required></textarea>
-                <small class="form-text text-muted invalid-feedback">Please enter a message</small>
-                <small id="nameHelp" class="form-text text-muted valid-feedback">Sounds Great!</small>
-              </div>
-              <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
-            </form>
+              <p class="text-center font-weight-bold">Or find me on my main website at <a href="https://www.jaredparrish.com" class="text-info">jaredparrish.com</a></p>
             </div>
           </div>
-
-
-        </section>
-        <section class="container-fluid bg-dark position-relative mt-5">
-          <div class="custom-shape-divider-top-1601254226">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
-            </svg>
-          </div>
-    
-          <div class="row divider-text-div">
-            <div class="col-12 d-flex flex-column justify-content-center">
-              <h1 class="divider-text text-center m-3">You can also find me elsewhere on the web</h1>
-              <h2 class="divider-text text-center m-3">Exploring new technologies. Creating new things.</h2>  
-            </div>
-          </div>
-          <div class="custom-shape-divider-bottom-1601254498">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
-            </svg>
-          </div>
-        </section>
-        <section class="container-fluid">
-          <div class="col-12 col-sm-10 mx-auto find-me-on">
-            <div class="row mx-auto my-4 justify-content-center align-items-center col-12 col-md-8">
-              <div class="line-container">
-                <div class="line"></div>
-              </div>
-              <div class="m-0 px-2 find-me-text-container">
-                <p class="m-0 font-weight-bold" id="find-me-text">Find Me On</p>
-              </div>
-              <div class="line-container">
-                <div class="line"></div>
-              </div>
-            </div>
-            <div class="row my-4 justify-content-center">
-              <a class="logo-anchor mx-2 mx-md-5 col-5 col-md-4 col-lg-3 col-xl-2" href="https://github.com/ParrishJ">
-                <img class="img-fluid" src="../images/Github-Logo.png"></img>
-              </a>
-              <a class="logo-anchor mx-2 mx-md-5 col-5 col-md-4 col-lg-3 col-xl-2" href="https://www.linkedin.com/in/jared-parrish/">
-                <img class="img-fluid" src="../images/LinkedIn-Logo.png"></img>
-              </a>
-            </div>
-            <div>
-              <p class="text-center font-weight-bold my-5">Or find me at my main website at <a href="https://www.jaredparrish.com" class="text-info">jaredparrish.com</a></p>
-            </div>
-          </div>
-          
-        </section>
+        </div>
+      </section>
      
       <script src="js/unsplash.js"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -179,6 +147,7 @@
             });
           }, false);
         })();
-        </script>
+
+      </script>
   </body>
 </html>

@@ -94,7 +94,8 @@ dl {
   list-style: square; }
 
 .line-container {
-  width: 15%; }
+  width: 15%;
+  max-width: 100px; }
 
 .line {
   width: 90%;
@@ -153,7 +154,7 @@ dl {
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Exo 2', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
