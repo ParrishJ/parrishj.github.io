@@ -1,0 +1,19 @@
+
+$darkNavy: #0B1016;
+
+$border-width: 2.5px;
+$border-radius: .8rem;
+
+$spacer: 1rem;
+$spacers: (
+  6: ($spacer * 3.5),
+  7: ($spacer * 5),
+  8: ($spacer * 7),
+  9: ($spacer * 10),
+  
+);
+
+$theme-colors: (
+  "primary": $darkNavy,
+  "dark": $darkNavy,
+);
