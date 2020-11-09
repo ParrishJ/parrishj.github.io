@@ -132,16 +132,16 @@ html {
     @media (min-width: 1140px) {
       html .divider-text-div .divider-text-container #divider-text-subheading-contact {
         font-size: 1.7em; } }
-  html .divider-text-div .line-container {
+  html .line-container {
     width: 15%;
     max-width: 100px; }
-    html .divider-text-div .line-container .line {
+    html .line-container .line {
       width: 90%;
       height: 2px; }
-  html .divider-text-div #find-me-text {
+  html #find-me-text {
     font-size: 1.1em; }
     @media (min-width: 576px) {
-      html .divider-text-div #find-me-text {
+      html #find-me-text {
         font-size: 1.4em; } }
 
 /*!
