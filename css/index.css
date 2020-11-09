@@ -67,19 +67,6 @@ html {
       min-height: 400px; }
     html body .divider-text-div h1, html body .divider-text-div h2, html body .divider-text-div h3, html body .divider-text-div h4, html body .divider-text-div h5, html body .divider-text-div h6, html body .divider-text-div p {
       color: white; }
-    html body .divider-text-div h1 {
-      font-size: 1.8em; }
-      @media (min-width: 360px) {
-        html body .divider-text-div h1 {
-          font-size: 2em; } }
-      @media (min-width: 768px) {
-        html body .divider-text-div h1 {
-          font-size: 3.5em; } }
-    html body .divider-text-div h2 {
-      font-size: 1.4em; }
-      @media (min-width: 768px) {
-        html body .divider-text-div h2 {
-          font-size: 1.9em; } }
   html #home-page .reasons .reasons-heading {
     font-size: 1.6em; }
   html #home-page .reasons .reasons-text {
@@ -91,32 +78,64 @@ html {
     line-height: 1.5; }
   html #home-page .blockquote .blockquote-footer {
     font-weight: bold; }
-  html #contact-page #contact-divider-text-heading {
+  html #home-page .divider-text-div .divider-text-container h1#divider-text-heading-home {
     font-size: 1.5em; }
     @media (min-width: 360px) {
-      html #contact-page #contact-divider-text-heading {
+      html #home-page .divider-text-div .divider-text-container h1#divider-text-heading-home {
         font-size: 2em; } }
     @media (min-width: 768px) {
-      html #contact-page #contact-divider-text-heading {
+      html #home-page .divider-text-div .divider-text-container h1#divider-text-heading-home {
         font-size: 3.5em; } }
-  html #contact-page #contact-divider-text-subheading {
+  html #home-page .divider-text-div .divider-text-container h2#divider-text-subheading-home {
     font-size: 1.2em; }
     @media (min-width: 360px) {
-      html #contact-page #contact-divider-text-subheading {
+      html #home-page .divider-text-div .divider-text-container h2#divider-text-subheading-home {
+        font-size: 1.5em; } }
+    @media (min-width: 768px) {
+      html #home-page .divider-text-div .divider-text-container h2#divider-text-subheading-home {
+        font-size: 1.9em; } }
+  html #about-me-page .divider-text-div .divider-text-container h1#divider-text-heading-about {
+    font-size: 1.5em; }
+    @media (min-width: 360px) {
+      html #about-me-page .divider-text-div .divider-text-container h1#divider-text-heading-about {
+        font-size: 2em; } }
+    @media (min-width: 768px) {
+      html #about-me-page .divider-text-div .divider-text-container h1#divider-text-heading-about {
+        font-size: 3.5em; } }
+  html #about-me-page .divider-text-div .divider-text-container h2#divider-text-subheading-about {
+    font-size: 1.2em; }
+    @media (min-width: 360px) {
+      html #about-me-page .divider-text-div .divider-text-container h2#divider-text-subheading-about {
+        font-size: 1.5em; } }
+    @media (min-width: 768px) {
+      html #about-me-page .divider-text-div .divider-text-container h2#divider-text-subheading-about {
+        font-size: 1.9em; } }
+  html .divider-text-div .divider-text-container #divider-text-heading-contact {
+    font-size: 1.5em; }
+    @media (min-width: 360px) {
+      html .divider-text-div .divider-text-container #divider-text-heading-contact {
+        font-size: 2em; } }
+    @media (min-width: 768px) {
+      html .divider-text-div .divider-text-container #divider-text-heading-contact {
+        font-size: 3.2em; } }
+  html .divider-text-div .divider-text-container #divider-text-subheading-contact {
+    font-size: 1.2em; }
+    @media (min-width: 360px) {
+      html .divider-text-div .divider-text-container #divider-text-subheading-contact {
         font-size: 1.4em; } }
     @media (min-width: 768px) {
-      html #contact-page #contact-divider-text-subheading {
-        font-size: 1.9em; } }
-  html #contact-page .line-container {
+      html .divider-text-div .divider-text-container #divider-text-subheading-contact {
+        font-size: 1.7em; } }
+  html .divider-text-div .line-container {
     width: 15%;
     max-width: 100px; }
-    html #contact-page .line-container .line {
+    html .divider-text-div .line-container .line {
       width: 90%;
       height: 2px; }
-  html #contact-page #find-me-text {
+  html .divider-text-div #find-me-text {
     font-size: 1.1em; }
     @media (min-width: 576px) {
-      html #contact-page #find-me-text {
+      html .divider-text-div #find-me-text {
         font-size: 1.4em; } }
 
 /*!

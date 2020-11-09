@@ -93,27 +93,11 @@ body {
     h1, h2, h3, h4, h5, h6, p {
       color: white;
     }
-
-    h1 {
-      font-size: 1.8em;
-
-      @media (min-width: 360px) {
-        font-size: 2em;
-      }
-
-      @media (min-width: 768px) {
-        font-size: 3.5em;
-      }
-    }
-
-    h2 {
-      font-size: 1.4em;
-  
-      @media (min-width: 768px) {
-        font-size: 1.9em;
-      }
-    }
+    
+    
   }
+
+  
 } /* End Global Styles */
 
   /* Home Page Styles */
@@ -141,31 +125,82 @@ body {
         
       }
     }
+    .divider-text-div {
+      .divider-text-container {
+        h1#divider-text-heading-home {
+          font-size: 1.5em;
+
+          @media (min-width: 360px) {
+            font-size: 2em;
+          }
+
+          @media (min-width: 768px) {
+            font-size: 3.5em;
+          }
+        }
+        h2#divider-text-subheading-home{
+          font-size: 1.2em;
+
+          @media (min-width: 360px) {
+            font-size: 1.5em;
+          }
+      
+          @media (min-width: 768px) {
+            font-size: 1.9em;
+          }
+        }
+      }
+  }
     
   } /* End Home Styles */
 
   /* About Me Page Styles*/
   #about-me-page {
+    .divider-text-div {
+      .divider-text-container {
+          h1#divider-text-heading-about {
+            font-size: 1.5em;
+    
+            @media (min-width: 360px) {
+              font-size: 2em;
+            }
+    
+            @media (min-width: 768px) {
+              font-size: 3.5em;
+            }
+          }
+          h2#divider-text-subheading-about{
+            font-size: 1.2em;
+    
+            @media (min-width: 360px) {
+              font-size: 1.5em;
+            }
+        
+            @media (min-width: 768px) {
+              font-size: 1.9em;
+            }
+          }
+      }
+    }
     
 
   } /* End About Styles */
 
   /* Contact Page Styles*/
-  #contact-page {
-    #contact-divider-text-heading {
-     
+  .divider-text-div {
+    .divider-text-container {
+      #divider-text-heading-contact {
         font-size: 1.5em;
-    
+  
         @media (min-width: 360px) {
           font-size: 2em;
         }
-    
+
         @media (min-width: 768px) {
-          font-size: 3.5em;
+          font-size: 3.2em;
         }
       }
-
-      #contact-divider-text-subheading {
+      #divider-text-subheading-contact {
         font-size: 1.2em;
     
         @media (min-width: 360px) {
@@ -173,13 +208,11 @@ body {
         }
 
         @media (min-width: 768px) {
-          font-size: 1.9em;
+          font-size: 1.7em;
         }
     
       }
-    
-
-    //1.2 h2
+    }
 
     .line-container {
       width: 15%;
