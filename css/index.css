@@ -117,6 +117,9 @@ html {
         font-size: 2em; } }
     @media (min-width: 768px) {
       html .divider-text-div .divider-text-container #divider-text-heading-contact {
+        font-size: 2.6em; } }
+    @media (min-width: 1140px) {
+      html .divider-text-div .divider-text-container #divider-text-heading-contact {
         font-size: 3.2em; } }
   html .divider-text-div .divider-text-container #divider-text-subheading-contact {
     font-size: 1.2em; }
@@ -124,6 +127,9 @@ html {
       html .divider-text-div .divider-text-container #divider-text-subheading-contact {
         font-size: 1.4em; } }
     @media (min-width: 768px) {
+      html .divider-text-div .divider-text-container #divider-text-subheading-contact {
+        font-size: 1.5em; } }
+    @media (min-width: 1140px) {
       html .divider-text-div .divider-text-container #divider-text-subheading-contact {
         font-size: 1.7em; } }
   html .divider-text-div .line-container {
