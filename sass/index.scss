@@ -222,26 +222,28 @@ body {
       }
     }
 
-    .line-container {
-      width: 15%;
-      max-width: 100px;
-
-      .line {
-        width: 90%;
-        height: 2px;
-        
-      }
-    }
     
-    #find-me-text {
-      font-size: 1.1em;
-    
-      @media(min-width: 576px) {
-        font-size: 1.4em;
-      }
-    }
-  } /* End Contact Styles */
+  } 
 
+  .line-container {
+    width: 15%;
+    max-width: 100px;
+
+    .line {
+      width: 90%;
+      height: 2px;
+      
+    }
+  }
+  
+  #find-me-text {
+    font-size: 1.1em;
+  
+    @media(min-width: 576px) {
+      font-size: 1.4em;
+    }
+  }
+/* End Contact Styles */
 }
 
 @import "./bootstrap-customizatoins.scss";
