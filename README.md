@@ -2,7 +2,7 @@
 
 ## Why I Made This Demo
 
-Pursuing web and software development as a profession requires a strong set of skills that spans many different domains. As part of my ongoing effort to hone and demonstrate my skills in some of these different areas, I’m publishing a series of projects with each project focusing on a particular area of web development and computer science.
+Pursuing web and software development as a profession requires a strong set of skills that spans many different domains. As part of my ongoing effort to refine and demonstrate my skills in a number of different areas of web and software development, I will be publishing a series of projects which explore these various subjects. 
 
 For this project, I focused on [Bootstrap](https://github.com/twbs/bootstrap) 4. Aesthetics are important to any project on the web, and Bootstrap offers a powerful and developer-friendly way to create user facing content. Bootstrap’s efficient workflow, immense popularity, and responsive design inspired me to put this project together.
 
